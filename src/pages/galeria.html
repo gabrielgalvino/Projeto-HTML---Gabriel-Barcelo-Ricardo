@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/barber.png">
+</head>
+
+<body>
+
+<!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <a href="../../index.html">
+                <img src="../img/logo.png" alt="Logo do site">
+            </a>
+        </div>
+        <nav class="navbar">
+            <a href="../../index.html">Início</a>
+            <a href="../pages/galeria.html" class="ativo">Galeria</a>
+            <a href="../pages/agendamento.html">Agendamento</a>
+        </nav>
+    </header>
+
+<!-- Botão back to top -->
+    <img src="../img/botao.png" alt="botao btt" class="btt" />
+
+<!-- Hero Section Reduzido-->
+    <section class="small-hero">
+        <h1>Nossos Trabalhos</h1>
+        <p>Fazendo a diferença na vida dos nossos clientes</p>
+    </section>
+
+<!-- Filtros -->
+    <section class="filtros">
+        <button class="botao-filtro ativo" data-filtro="todos">Todos</button>
+        <button class="botao-filtro" data-filtro="barba">Barba</button>
+        <button class="botao-filtro" data-filtro="cabelo">Cabelo</button>
+    </section>
+
+<!-- Galeria -->
+    <section class="galeria">
+        <div class="item" data-categoria="barba">
+            <img src="../img/galeria/barba1.jpg" alt="Corte de Barba 1">
+        </div>
+
+        <div class="item" data-categoria="cabelo">
+            <img src="../img/galeria/cabelo1.jpg" alt="Corte de Cabelo 1">
+        </div>
+
+        <div class="item" data-categoria="barba">
+            <img src="../img/galeria/barba2.jpg" alt="Corte de Barba 2">
+        </div>
+
+        <div class="item" data-categoria="cabelo">
+            <img src="../img/galeria/cabelo2.jpg" alt="Corte de Cabelo 2">
+        </div>
+
+        <div class="item" data-categoria="barba">
+            <img src="../img/galeria/barba3.jpg" alt="Corte de Barba 3">
+        </div>
+
+        <div class="item" data-categoria="cabelo">
+            <img src="../img/galeria/cabelo3.jpg" alt="Corte de Cabelo 3">
+        </div>
+
+        <div class="item" data-categoria="barba">
+            <img src="../img/galeria/barba4.jpg" alt="Corte de Barba 4">
+        </div>
+
+        <div class="item" data-categoria="cabelo">
+            <img src="../img/galeria/cabelo4.jpg" alt="Corte de Cabelo 4">
+        </div>
+
+        <div class="item" data-categoria="cabelo">
+            <img src="../img/galeria/cabelo5.jpg" alt="Corte de Cabelo 5">
+        </div>
+
+        <div class="item" data-categoria="cabelo">
+            <img src="../img/galeria/cabelo6.jpg" alt="Corte de Cabelo 6">
+        </div>
+
+        <div class="item" data-categoria="cabelo">
+            <img src="../img/galeria/barba5.jpg" alt="Corte de Cabelo 5">
+        </div>
+
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="botao-fechar">&times;</button>
+        <button class="botao-nav anterior">&#10094;</button>
+        <button class="botao-nav proximo">&#10095;</button>
+        
+        <div class="conteudo">
+            <img id="img-lightbox" src="" alt="">
+            <h2 id="titulo-lightbox"></h2>
+            <p id="contador"></p>
+        </div>
+    </div>
+
+
+    <!-- Rodapé -->
+    <footer>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.2006030090906!2d-38.577043125881474!3d-3.76647764336523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74c01797285bb%3A0xa8888be05f940563!2sCentro%20Universit%C3%A1rio%20Est%C3%A1cio%20-%20Campus%20Parangaba!5e0!3m2!1spt-BR!2sbr!4v1762189842375!5m2!1spt-BR!2sbr" alt="Localização Google Fotos"
+        loading="lazy"></iframe>
+
+        <div class="informacoes">
+            <h3>Horário de Funcionamento</h3>
+            <p>Segunda a Sexta: 09h – 18h</p>
+            <p>Sábado: 09h – 15h</p>
+            <p>Domingo e Feriados: Fechado</p>
+            <p>Av. Senador Fernandes Távora, 137A - Jóquei Clube<br>Fortaleza - CE, 60510-111</p>
+         </div>
+
+        <div class="redes-sociais">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.whatsapp.com" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener">Twitter</a>
+        </div>
+
+        <div>
+            <p>&copy; 2025 TheBarbero. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../js/galeria.js"></script>
+    <script src="../js/botao.js"></script>
+
+</body> 
+</html>
