@@ -1,9 +1,7 @@
 # Projeto HTML --- Gabriel Lucas, Barcelo Saraiva e Ricardo Victor
 
 Este é um projeto simples desenvolvido utilizando **HTML**, **CSS** e
-**JavaScript**.\
-O objetivo é apresentar a estrutura básica de um site e praticar
-conceitos fundamentais de desenvolvimento web.
+**JavaScript**.
 
 ------------------------------------------------------------------------
 
@@ -18,8 +16,8 @@ O projeto está hospedado no GitHub Pages:
 
 ## 🛠 Tecnologias Utilizadas
 
--   HTML\
--   CSS\
+-   HTML
+-   CSS
 -   JavaScript
 
 ------------------------------------------------------------------------
@@ -39,31 +37,12 @@ O projeto está hospedado no GitHub Pages:
     ```
 
 3.  Abra o arquivo `index.html` no navegador.
-
-------------------------------------------------------------------------
-
-## 📁 Estrutura Geral
-
-``` text
-Projeto-HTML---Gabriel-Barcelo-Ricardo/
-├── index.html
-├── /src
-│   ├── /css
-│   ├── /js
-│   └── /imagens
-└── README.md
-```
+ q
 
 ------------------------------------------------------------------------
 
 ## 👨‍💻 Autores
 
--   **Gabriel Lucas**\
--   **Barcelo Saraiva**\
+-   **Gabriel Lucas**
+-   **Barcelo Saraiva**
 -   **Ricardo Victor**
-
-------------------------------------------------------------------------
-
-## 📄 Licença
-
-Este projeto está sob a licença **MIT** (ou outra que você preferir).
