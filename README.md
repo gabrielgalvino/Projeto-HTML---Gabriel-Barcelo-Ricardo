@@ -1,4 +1,4 @@
-# Projeto HTML --- Gabriel Lucas, Barcelo Saraiva e Ricardo Victor
+# Projeto HTML - Gabriel Lucas, Barcelo Saraiva e Ricardo Victor
 
 Este é um projeto simples desenvolvido utilizando **HTML**, **CSS** e
 **JavaScript**.
