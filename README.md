@@ -5,16 +5,15 @@ Este é um projeto simples desenvolvido utilizando **HTML**, **CSS** e
 
 ------------------------------------------------------------------------
 
-## 🌐 Site Online
+## Site Online
 
 O projeto está hospedado no GitHub Pages:
 
-➡️
 **https://gabrielgalvino.github.io/Projeto-HTML---Gabriel-Barcelo-Ricardo/**
 
 ------------------------------------------------------------------------
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 -   HTML
 -   CSS
@@ -22,7 +21,7 @@ O projeto está hospedado no GitHub Pages:
 
 ------------------------------------------------------------------------
 
-## 🚀 Como Executar Localmente
+## Como Executar Localmente
 
 1.  Clone o repositório:
 
@@ -37,11 +36,10 @@ O projeto está hospedado no GitHub Pages:
     ```
 
 3.  Abra o arquivo `index.html` no navegador.
- q
 
 ------------------------------------------------------------------------
 
-## 👨‍💻 Autores
+## Autores
 
 -   **Gabriel Lucas**
 -   **Barcelo Saraiva**
